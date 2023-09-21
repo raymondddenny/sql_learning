@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost" uuid="8fcebfa8-3071-4e16-9f66-59f69296a66c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:33061/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Comeby Staging DB" uuid="ee711a71-093b-4ff3-a9cc-d002f964c71b">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://new-comeby-staging.cluster-cdxflzoiuovo.ap-southeast-1.rds.amazonaws.com:3306/comebystaging</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Comeby Dev DB" uuid="18e2a28b-de98-4b0f-86df-4fecda798649">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://new-comeby-development.cluster-cdxflzoiuovo.ap-southeast-1.rds.amazonaws.com:3306/comebydevelopment</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Comeby Prod DB" uuid="726e9e7a-9798-4110-ab1e-b0871dafad34">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://new-comeby-production.cluster-cdxflzoiuovo.ap-southeast-1.rds.amazonaws.com:3306/comebyproduction</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="comebyproduction@restore-kukuh-200923-v1-cluster.cluster-ro-cdxflzoiuovo.ap-southeast-1.rds.amazonaws.com" uuid="0f6b88e9-efdd-46c9-84ff-c7f10bf787d9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://restore-kukuh-200923-v1-cluster.cluster-ro-cdxflzoiuovo.ap-southeast-1.rds.amazonaws.com:3306/comebyproduction</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
